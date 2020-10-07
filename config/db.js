@@ -5,7 +5,7 @@ require( "dotenv" ).config();
 let db_url;
 const env = process.env.NODE_ENV || 'development';
 if ( env === "development" ) {
-  db_url = process.env.DB_URL;
+  db_url = process.env.DEV_DB;
 } else {
   db_url = process.env.PROD_DB;
 }
