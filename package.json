@@ -27,6 +27,7 @@
     "nodemailer-sendgrid-transport": "^0.2.0",
     "nodemon": "^2.0.4",
     "swagger-ui-express": "^4.1.4",
+    "unirest": "^0.6.0",
     "winston": "^2.4.0",
     "winston-mongodb": "^3.0.0"
   }

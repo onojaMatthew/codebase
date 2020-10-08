@@ -1,8 +1,23 @@
 const { Admin } = require("../models/admin");
 const { User } = require("../models/user");
 const { sendEmail } = require("../services/mailer");
+const { sms } = require("../services/sms");
 const { codeGenerator } = require("../services/code_generator");
 const bcrypt = require("bcrypt");
+
+exports.sendOTP = async (req, res) => {
+  const { phone } = req.body;
+  const otp = codeGenerator();
+  const message = `Your phone verification token is: ${otp}`;
+  const data = {
+    phone,
+    message
+  }
+
+  const response = await sms(data);
+
+  return res.json(response);
+}
 
 exports.createUser = (req, res) => {
   const { firstName, lastName, email, password, phone } = req.body;
