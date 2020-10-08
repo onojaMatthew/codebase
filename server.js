@@ -9,7 +9,7 @@ const path = require("path");
 
 require("dotenv").config();
 
-const { swaggerDocument } = require("./swagger");
+const swaggerDocument = require("./swagger");
 const {
   PORT,
 } = process.env;

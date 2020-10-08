@@ -1,5 +1,5 @@
-{
-    "swagger": "2.0",
+module.exports = swaggerDocument = {
+    "openapi": "3.0.1",
     "info": {
     "version": "1.0.0", 
     "title": "My User Project CRUD",
@@ -7,23 +7,28 @@
     "license": {
     "name": "MIT",
     "url": "https://opensource.org/licenses/MIT"
-    }
+        }
     },
     "host": "localhost:8000",
     "basePath": "/",
     "tags": [
-    {
-    "name": "Users",
-    "description": "API for users in the system"
-    }
+        {
+            "name": "Users",
+            "description": "API for users in the system"
+        }
     ],
     "schemes": [
-    "http"
+        "http"
     ],
     "consumes": [
-    "application/json"
+        "application/json"
     ],
     "produces": [
-    "application/json"
-    ]
+        "application/json"
+    ],
+    "path": {
+        "/users": {
+
+        }
     }
+}
