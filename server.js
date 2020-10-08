@@ -2,12 +2,14 @@ const express = require("express");
 const morgan = require("morgan");
 const bodyParser = require("body-parser");
 const cookieParser = require("cookie-parser");
+const swaggerUI = require("swagger-ui-express");
 const winston = require("winston");
 const db = require("./config/db");
 const path = require("path");
 
 require("dotenv").config();
 
+const { swaggerDocument } = require("./swagger");
 const {
   PORT,
 } = process.env;
@@ -28,7 +30,8 @@ db();
 // Setting up middlewares
 app.use(morgan("tiny"));
 app.use(bodyParser.json());
-app.use(bodyParser.urlencoded({ limit: "50mb", extended: true , parameterLimit: 500000 }))
+app.use(bodyParser.urlencoded({ limit: "50mb", extended: true , parameterLimit: 500000 }));
+app.use("/api-docs", swaggerUI.serve, swaggerUI.setup(swaggerDocument));
 app.use(cookieParser());
 
 //==================================================
@@ -54,7 +57,7 @@ app.get('/', (req, res) => {
 
 //=============================================================================
 // error logger
-require("./config/error-log").logger;
+require("./config/error-log");
 
 
 //=============================================================================
