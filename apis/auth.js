@@ -11,12 +11,12 @@ const {
 
 const router = express.Router();
 
-router.post("/auth/signup", createUser);
-router.post("/auth/login", signIn);
-router.post("/auth/otp", sendOTP);
-router.put("/verify_otp", verifyCode);
-router.put("/auth/recover", recover);
-router.get("/auth/reset/:token", reset);
-router.put("/auth/reset_password", resetPassword);
+router.post("/signup/:userType", createUser);
+router.post("/login/:userType", signIn);
+router.post("/send_otp/:userType", sendOTP);
+router.put("/verify_otp/:userType", verifyCode);
+router.put("/recover/:userType", recover);
+router.get("/reset/:token/:userType", reset);
+router.put("/reset_password/:userType", resetPassword);
 
 module.exports = router;

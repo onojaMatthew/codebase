@@ -1,3 +1,4 @@
+const jwt = require("jsonwebtoken");
 const { Admin } = require("../models/admin");
 const { User } = require("../models/user");
 const { sendEmail } = require("../services/mailer");
@@ -22,7 +23,7 @@ exports.sendOTP = async (req, res) => {
 exports.createUser = (req, res) => {
   const { firstName, lastName, email, password, phone } = req.body;
   const { userType } = req.params;
-  let User;
+  let Account;
   if (!userType) return res.status(400).json({ error: "Invalid parameter value userType" });
   if (!firstName) return res.status(400).json({ error: "First name is required" });
   if (!lastName) return res.status(400).json({ error: "Your last name is required" });
@@ -31,25 +32,22 @@ exports.createUser = (req, res) => {
   if (!phone) return res.status(400).json({ error: "Phone number is required" });
 
   switch(userType) {
-    case "customer": 
-      User = User;
+    case "user": 
+      Account = User;
       break;
     case "admin": 
-      User = Admin;
-      break;
-    case "user": 
-      User = Admin;
+      Account = Admin;
       break;
     default: return res.status(403).json({ error: "Unknown user type"  });
   }
 
-  User.findOne({ email })
+  Account.findOne({ email })
     .then(user => {
       if (user) return res.status(400).json({ error: "User already exists" });
       return bcrypt.hash(password, 12)
         .then(hashedPassword => {
           if (!hashedPassword) return res.status(400).json({ error: "Could not hash password" });
-          let newUser = new User({
+          let newUser = new Account({
             firstName: req.body.firstName,
             lastName: req.body.lastName,
             email: req.body.email,
@@ -57,15 +55,16 @@ exports.createUser = (req, res) => {
             phone: req.body.phone,
             role: req.params.userType
           });
-          const code = newUser.verificationCode(codeGenerator());
+          const code = codeGenerator();
+          newUser.verificationCode = code;
           newUser.save()
             .then(async (resp) => {
               if (!resp) return res.status(400).json({ error: "Failed to save user" });
               const emailData = {
                 subject: "Email verification code",
-                sender: "Rusomo",
+                sender: "no-reply@mail.com",
                 receiver: req.body.email,
-                message: `<p>To verify and login to your Rusumo application, copy and paste this 6 digits code: ${code} in your application`,
+                message: `<p>Your email verification code is: ${code}`,
               }
             sendEmail(emailData);
             return res.json({ message: `A verification code was sent to your email`, resp, code });
@@ -80,31 +79,30 @@ exports.createUser = (req, res) => {
 exports.signIn = (req, res) => {
   const { email, password } = req.body;
   const { userType } = req.params;
-  let User;
+  let Account;
   if (!userType) return res.status(400).json({ error: "Invalid parameter value userType" });
   if (!email) return res.status(400).json({ error: "Email is required" });
   if (!password) return res.status(400).json({ error: "Your password is required" });
 
   switch(userType) {
-    case "customer":
-      User = User;
-      break;
     case "user":
-      User = Admin;
+      Account = User;
       break;
     case "admin":
-      User = Admin;
+      Account = Admin;
       break;
     default: return res.status(403).json({ error: "Unknown user type" });
   }
 
-  User.findOne({ email })
+  Account.findOne({ email })
     .then(user => {
       if (!user) return res.status(400).json({ error: "User does not exist" });
       return bcrypt.compare(password, user.password)
         .then(async (matched) => {
           if (!matched) return res.status(400).json({ error: "Password do not match" });
-          const token = user.generateToken();
+          // generate authentication token for the user
+          const token = jwt.sign({ _id: user._id, email: user.email }, process.env.SECRET_KEY, { expiresIn: "14days"});
+
           const isVerified = user.emailVerified
           const { email, firstName, lastName, phone, _id } = user;
           res.cookie("token", token, { expires: new Date(new Date() + 64800000)});
@@ -118,25 +116,23 @@ exports.signIn = (req, res) => {
 
 exports.verifyCode = (req, res) => {
   const { code, userType } = req.params;
-  let User;
+  let Account;
   if (!code) return res.status(400).json({error: "Invalid code sent. Check and try again" });
   if (!userType) return res.status(400).json({ error: "Unknown user type" });
 
   switch(userType) {
-    case "customer":
-      User = User;
-      break;
     case "user":
-      User = Admin;
+      Account = User;
       break;
     case "admin":
-      User = Admin;
+      Account = Admin;
       break;
     default: return res.status(403).json({ error: "Unknown user type" });
   }
 
-  const toNum = Number(code)
-  User.findOne({ code: toNum })
+  const toNum = Number(code);
+
+  Account.findOne({ code: toNum })
     .then(user => {
       if (!user) return res.status(400).json({ error: "Invalid code or the code has expired" });
       user.code = null;
@@ -159,36 +155,35 @@ exports.recover = (req, res) => {
   const { userType } = req.params;
   if (!userType) return res.status(400).json({ error: "User type is required" });
   if (!email) return res.status(400).json({ error: "Email is required" });
-  
+
+  let Account;
+
   switch(userType) {
-    case "customer":
-      User = User;
+    case "user":
+      Account = User;
       break;
     case "admin":
-      User = Admin;
-      break;
-    case "user":
-      User = Admin;
+      Account = Admin;
       break;
     default: return res.status(403).json({ error: "Unknown user type" });
   }
 
-  User.findOne({ email })
+  Account.findOne({ email })
     .then(user => {
       if (!user) return res.status(401).json({ error: 'The email address ' + req.body.email + ' is not associated with any account. Double-check your email address and try again.'});
 
       //Generate and set password reset token
-      user.generatePasswordReset();
-
+      user.resetPasswordToken = jwt.sign({ firstName: user.firstName }, process.env.SECRET_KEY, { expiresIn: "5m" });
+      user.resetPasswordExpires = Date.now() + 3600000
       // Save the updated user object
       user.save()
         .then(user => {
           // send email
           let link = `http://${req.headers.host}/api/v1/auth/reset/${user.resetPasswordToken}/${user.role}`
           const receiver = user.email;
-          const sender = "Rusumo";
+          const sender = "no-reply@mail.com";
           const subject = "Password change request"
-          const message = `Hi ${user.fullName} \n 
+          const message = `Hi ${user.firstName} \n 
           You sent a password reset request. Please click on the following link ${link} to reset your password. \n\n 
           If you did not request this, please ignore this email and your password will remain unchanged.\n`;
 
@@ -210,8 +205,6 @@ exports.recover = (req, res) => {
       res.status(500).json({ error: err.message })
     });
 };
-
-
 
 // @route POST api/auth/reset
 // @desc Reset Password - Validate password reset token and shows the password reset view
@@ -237,7 +230,6 @@ exports.reset = (req, res) => {
         res.redirect("http://" + req.headers.host + "/change_password/" + user.resetPasswordToken);
     })
     .catch(err => {
-      console.log(err)
       res.status(500).json({ error: err.message});
     });
 };
@@ -250,13 +242,10 @@ exports.resetPassword = (req, res) => {
   let Account;
   if (!userType) return res.status(400).json({ error: "Unknown user type" });
   switch(userType) {
-    case "customer":
+    case "user":
       Account = User;
       break;
     case "admin":
-      Account = Admin;
-      break;
-    case "user":
       Account = Admin;
       break;
     default: return res.status(403).json({ error: "Unknown user type" });
