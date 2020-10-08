@@ -1,5 +1,5 @@
 const { Admin } = require("../models/admin");
-const { Customer } = require("../models/customer");
+const { User } = require("../models/user");
 const { sendEmail } = require("../services/mailer");
 const { codeGenerator } = require("../services/code_generator");
 const bcrypt = require("bcrypt");
@@ -17,7 +17,7 @@ exports.createUser = (req, res) => {
 
   switch(userType) {
     case "customer": 
-      User = Customer;
+      User = User;
       break;
     case "admin": 
       User = Admin;
@@ -72,7 +72,7 @@ exports.signIn = (req, res) => {
 
   switch(userType) {
     case "customer":
-      User = Customer;
+      User = User;
       break;
     case "user":
       User = Admin;
@@ -109,7 +109,7 @@ exports.verifyCode = (req, res) => {
 
   switch(userType) {
     case "customer":
-      User = Customer;
+      User = User;
       break;
     case "user":
       User = Admin;
@@ -147,7 +147,7 @@ exports.recover = (req, res) => {
   
   switch(userType) {
     case "customer":
-      User = Customer;
+      User = User;
       break;
     case "admin":
       User = Admin;
@@ -169,7 +169,7 @@ exports.recover = (req, res) => {
       user.save()
         .then(user => {
           // send email
-          let link = "http://" + req.headers.host + "/api/v1/auth/reset/" + user.resetPasswordToken
+          let link = `http://${req.headers.host}/api/v1/auth/reset/${user.resetPasswordToken}/${user.role}`
           const receiver = user.email;
           const sender = "Rusumo";
           const subject = "Password change request"
@@ -202,8 +202,19 @@ exports.recover = (req, res) => {
 // @desc Reset Password - Validate password reset token and shows the password reset view
 // @access Public
 exports.reset = (req, res) => {
-  
-  User.findOne({resetPasswordToken: req.params.token, resetPasswordExpires: { $gt: Date.now() }})
+  const { userType } = req.params
+  let Account;
+  switch(userType) {
+    case "user":
+      Account = User;
+      break;
+    case "admin": 
+      Account = Admin;
+      break
+    default: return res.status(400).json({ error: "Unknown user type" });
+  }
+
+  Account.findOne({resetPasswordToken: req.params.token, resetPasswordExpires: { $gt: Date.now() }})
     .then((user) => {
         if (!user) return res.status(401).json({ error: 'Password reset token is invalid or has expired.'});
 
@@ -221,22 +232,22 @@ exports.reset = (req, res) => {
 // @access Public
 exports.resetPassword = (req, res) => {
   const { userType } = req.params;
-  let User;
+  let Account;
   if (!userType) return res.status(400).json({ error: "Unknown user type" });
   switch(userType) {
     case "customer":
-      User = Customer;
+      Account = User;
       break;
     case "admin":
-      User = Admin;
+      Account = Admin;
       break;
     case "user":
-      User = Admin;
+      Account = Admin;
       break;
     default: return res.status(403).json({ error: "Unknown user type" });
   }
 
-  User.findOne({ resetPasswordToken: req.body.token, resetPasswordExpires: {$gt: Date.now()} })
+  Account.findOne({ resetPasswordToken: req.body.token, resetPasswordExpires: {$gt: Date.now()} })
     .then((user) => {
         if (!user) return res.status(401).json({ error: 'Password reset token is invalid or has expired.'});
       return bcrypt.hash(req.body.password, 12)
