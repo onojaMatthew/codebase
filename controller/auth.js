@@ -267,7 +267,6 @@ exports.resetPassword = (req, res) => {
           // Save
           user.save((err, doc) => {
             if (err) return res.status(500).json({ error: err.message});
-
             // send email
             const receiver = user.email;
             const sender = "Rusumo";
