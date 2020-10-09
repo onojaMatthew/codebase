@@ -7,12 +7,14 @@ const {
   reset,
   resetPassword,
   sendOTP,
+  googlelogin,
 } = require("../controller/auth");
 
 const router = express.Router();
 
 router.post("/signup/:userType", createUser);
 router.post("/login/:userType", signIn);
+router.post("/googlelogin", googlelogin);
 router.post("/send_otp/:userType", sendOTP);
 router.put("/verify_otp/:userType", verifyCode);
 router.put("/recover/:userType", recover);

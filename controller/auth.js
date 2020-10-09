@@ -1,10 +1,13 @@
 const jwt = require("jsonwebtoken");
+const { OAuth2Client } = require("google-auth-library");
 const { Admin } = require("../models/admin");
 const { User } = require("../models/user");
 const { sendEmail } = require("../services/mailer");
 const { sms } = require("../services/sms");
 const { codeGenerator } = require("../services/code_generator");
 const bcrypt = require("bcrypt");
+
+const client = new OAuth2Client(process.env.GOOGLE_CLIENT_ID);
 
 exports.sendOTP = async (req, res) => {
   const { phone } = req.body;
@@ -287,3 +290,23 @@ exports.resetPassword = (req, res) => {
       return res.status(400).json({ error: err.message });
     });
 };
+
+// login with google
+exports.googlelogin = (req, res) => {
+  const { tokenId } = req.body;
+  profileObj= {
+    email: "onojamatthew59@gmail.com",
+    familyName: "Onoja",
+    givenName: "Matthew",
+    googleId: "104145972686439691325",
+    imageUrl: "https://lh3.googleusercontent.com/a-/AOh14Gh89jxNyzfSh2ugZlF8Ya2HcWC9xGSZN6wjvMM0RA=s96-c",
+    name: "Matthew Onoja",
+    tokenId: "eyJhbGciOiJSUzI1N"
+  }
+
+  client.verifyIdToken({ idToken: tokenId, audience: process.env.GOOGLE_CLIENT_ID })
+    .then(response => {
+      const { email_verified, given_name, family_name, email } = response.payload;
+      console.log(email_verified, given_name, family_name, email)
+    });
+}
