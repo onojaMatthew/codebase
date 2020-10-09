@@ -334,7 +334,6 @@ exports.googlelogin = (req, res) => {
 
 exports.facebooklogin = (req, res) => {
   const { userId, accessToken } = req.body;
-  console.log(req.body);
   const urlfacebookGraph = `https://graph.facebook.com/v2.11/${userId}/?fields=id,email,name&access_token=${accessToken}`
   fetch(urlfacebookGraph, {
     method: "GET",
@@ -369,7 +368,6 @@ exports.facebooklogin = (req, res) => {
             }
           })
           .catch(err => {
-            console.lot(err.message);
             return res.status(500).json({ error: "Internal server error" });
           });
       }
