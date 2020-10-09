@@ -6,6 +6,7 @@ const { sendEmail } = require("../services/mailer");
 const { sms } = require("../services/sms");
 const { codeGenerator } = require("../services/code_generator");
 const bcrypt = require("bcrypt");
+const fetch = require("node-fetch");
 
 const client = new OAuth2Client(process.env.GOOGLE_CLIENT_ID);
 
@@ -293,19 +294,84 @@ exports.resetPassword = (req, res) => {
 // login with google
 exports.googlelogin = (req, res) => {
   const { tokenId } = req.body;
-  profileObj= {
-    email: "onojamatthew59@gmail.com",
-    familyName: "Onoja",
-    givenName: "Matthew",
-    googleId: "104145972686439691325",
-    imageUrl: "https://lh3.googleusercontent.com/a-/AOh14Gh89jxNyzfSh2ugZlF8Ya2HcWC9xGSZN6wjvMM0RA=s96-c",
-    name: "Matthew Onoja",
-    tokenId: "eyJhbGciOiJSUzI1N"
-  }
 
   client.verifyIdToken({ idToken: tokenId, audience: process.env.GOOGLE_CLIENT_ID })
     .then(response => {
+      console.log(response.payload)
       const { email_verified, given_name, family_name, email } = response.payload;
-      console.log(email_verified, given_name, family_name, email)
+      if (email_verified) {
+        User.findOne({ email })
+          .then(user => {
+            if (!user) {
+              let newUser = new User({
+                firstName: given_name,
+                lastName: family_name,
+                email: email,
+                password: `${email}${process.env.SECRET_KEY}`
+              });
+              newUser.save((err, doc) => {
+                if (err || !doc) return res.status(400).json({ error: err.message });
+                const token = jwt.sign({ _id: doc._id }, process.env.SECRET_KEY, {expiresIn: "7d"})
+                const { _id, email, firstName, lastName } = newUser;
+                return res.json({ token, user: { _id, email, firstName, lastName }})
+              })
+            } else {
+              const token = jwt.sign({ _id: user._id }, process.env.SECRET_KEY, { expiresIn: "7d"})
+              const { _id, email, firstName, lastName } = user;
+              return res.json({ token, user: { _id, email, firstName, lastName }})
+            }
+          })
+          .catch(err => {
+            console.lot(err.message);
+            return res.status(500).json({ error: "Internal server error" });
+          });
+      }
+    })
+    .catch(err => {
+      return res.status(400).json({ error: "Internal server error" });
     });
+}
+
+exports.facebooklogin = (req, res) => {
+  const { userId, accessToken } = req.body;
+  console.log(req.body);
+  const urlfacebookGraph = `https://graph.facebook.com/v2.11/${userId}/?fields=id,email,name&access_token=${accessToken}`
+  fetch(urlfacebookGraph, {
+    method: "GET",
+  })
+    .then(response => response.json())
+    .then(resp => {
+      const { email, name } = resp;
+      let firstname = name.substr(0,name.indexOf(' '))
+      let lastname = name.substr(name.indexOf(" ") + 1)
+      console.log(firstname, "firstname")
+      console.log(lastname, "lastname")
+      if (email) {
+        User.findOne({ email })
+          .then(user => {
+            if (!user) {
+              let newUser = new User({
+                firstName: firstname,
+                lastName: lastname,
+                email: email,
+                password: `${email}${process.env.SECRET_KEY}`
+              });
+              newUser.save((err, doc) => {
+                if (err || !doc) return res.status(400).json({ error: err.message });
+                const token = jwt.sign({ _id: doc._id }, process.env.SECRET_KEY, {expiresIn: "7d"})
+                const { _id, email, firstName, lastName } = newUser;
+                return res.json({ token, user: { _id, email, firstName, lastName }})
+              })
+            } else {
+              const token = jwt.sign({ _id: user._id }, process.env.SECRET_KEY, { expiresIn: "7d"})
+              const { _id, email, firstName, lastName } = user;
+              return res.json({ token, user: { _id, email, firstName, lastName }})
+            }
+          })
+          .catch(err => {
+            console.lot(err.message);
+            return res.status(500).json({ error: "Internal server error" });
+          });
+      }
+    })
 }

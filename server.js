@@ -37,14 +37,16 @@ app.use(cookieParser());
 //==================================================
 // Setting up Cross Origin Resource Sharing
 //==================================================
-app.use( ( req, res, next ) => {
-  res.header( "Access-Control-Allow-Origin", "*");
-  res.header( "Access-Control-Allow-Credentials", true );
-  res.header( "Access-Control-Allow-Methods", "GET, POST, PUT, DELETE, PATCH" );
-  res.header( 'Access-Control-Allow-Headers', 'Origin, X-Requested-With, Authorization, Content-Type, Accept, X-Auth-Token' );
+app.use((req, res, next) => {
+  res.header("Access-Control-Allow-Origin", "*");
+  res.header("Access-Control-Allow-Credentials", true);
+  res.header("Access-Control-Allow-Methods", "GET, POST, PUT, DELETE, PATCH");
+  res.header("Access-Control-Allow-Headers", "Origin, X-Requested-With, Authorization, Content-Type, Accept, X-Auth-Token");
 
   next();
-} );
+});
+
+
 
 require("./middleware/prod")(app);
 //=============================================================================
