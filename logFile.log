@@ -1342,3 +1342,5 @@
 {"level":"info","message":"Connection to database established","timestamp":"2020-10-09T16:58:27.188Z"}
 {"level":"info","message":"🚀 Server ready at http://localhost:7000","timestamp":"2020-10-09T16:58:29.711Z"}
 {"level":"info","message":"Connection to database established","timestamp":"2020-10-09T16:58:29.746Z"}
+{"level":"info","message":"🚀 Server ready at http://localhost:7000","timestamp":"2020-10-09T16:59:29.188Z"}
+{"level":"info","message":"Connection to database established","timestamp":"2020-10-09T16:59:29.226Z"}
