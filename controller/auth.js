@@ -28,12 +28,12 @@ exports.createUser = (req, res) => {
   const { firstName, lastName, email, password, phone } = req.body;
   const { userType } = req.params;
   let Account;
-  if (!userType) return res.status(400).json({ error: "Invalid parameter value userType" });
-  if (!firstName) return res.status(400).json({ error: "First name is required" });
-  if (!lastName) return res.status(400).json({ error: "Your last name is required" });
-  if (!email) return res.status(400).json({ error: "Email is required" });
-  if (!password) return res.status(400).json({ error: "Password is required" });
-  if (!phone) return res.status(400).json({ error: "Phone number is required" });
+  // if (!userType) return res.status(400).json({ error: "Invalid parameter value userType" });
+  // if (!firstName) return res.status(400).json({ error: "First name is required" });
+  // if (!lastName) return res.status(400).json({ error: "Your last name is required" });
+  // if (!email) return res.status(400).json({ error: "Email is required" });
+  // if (!password) return res.status(400).json({ error: "Password is required" });
+  // if (!phone) return res.status(400).json({ error: "Phone number is required" });
 
   switch(userType) {
     case "user": 

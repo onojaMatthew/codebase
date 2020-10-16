@@ -1344,3 +1344,591 @@
 {"level":"info","message":"Connection to database established","timestamp":"2020-10-09T16:58:29.746Z"}
 {"level":"info","message":"🚀 Server ready at http://localhost:7000","timestamp":"2020-10-09T16:59:29.188Z"}
 {"level":"info","message":"Connection to database established","timestamp":"2020-10-09T16:59:29.226Z"}
+{"level":"info","message":"🚀 Server ready at http://localhost:7000","timestamp":"2020-10-16T08:19:02.267Z"}
+{"level":"info","message":"🚀 Server ready at http://localhost:7000","timestamp":"2020-10-16T08:24:47.153Z"}
+{"level":"info","message":"Connection to database established","timestamp":"2020-10-16T08:24:47.209Z"}
+{"level":"info","message":"🚀 Server ready at http://localhost:7000","timestamp":"2020-10-16T08:27:34.604Z"}
+{"level":"info","message":"Connection to database established","timestamp":"2020-10-16T08:27:34.684Z"}
+{"level":"info","message":"🚀 Server ready at http://localhost:7000","timestamp":"2020-10-16T08:31:21.519Z"}
+{"level":"info","message":"Connection to database established","timestamp":"2020-10-16T08:31:21.557Z"}
+{"level":"info","message":"🚀 Server ready at http://localhost:7000","timestamp":"2020-10-16T08:31:24.052Z"}
+{"level":"info","message":"Connection to database established","timestamp":"2020-10-16T08:31:24.119Z"}
+{"level":"info","message":"🚀 Server ready at http://localhost:7000","timestamp":"2020-10-16T08:31:29.429Z"}
+{"level":"info","message":"Connection to database established","timestamp":"2020-10-16T08:31:29.458Z"}
+{"level":"info","message":"🚀 Server ready at http://localhost:7000","timestamp":"2020-10-16T08:31:30.976Z"}
+{"level":"info","message":"Connection to database established","timestamp":"2020-10-16T08:31:31.012Z"}
+{"level":"info","message":"🚀 Server ready at http://localhost:7000","timestamp":"2020-10-16T08:31:34.203Z"}
+{"level":"info","message":"Connection to database established","timestamp":"2020-10-16T08:31:34.249Z"}
+{"level":"info","message":"🚀 Server ready at http://localhost:7000","timestamp":"2020-10-16T08:31:36.795Z"}
+{"level":"info","message":"Connection to database established","timestamp":"2020-10-16T08:31:36.844Z"}
+{"level":"info","message":"🚀 Server ready at http://localhost:7000","timestamp":"2020-10-16T08:31:40.931Z"}
+{"level":"info","message":"Connection to database established","timestamp":"2020-10-16T08:31:40.959Z"}
+{"level":"info","message":"🚀 Server ready at http://localhost:7000","timestamp":"2020-10-16T08:31:43.643Z"}
+{"level":"info","message":"Connection to database established","timestamp":"2020-10-16T08:31:43.680Z"}
+{"level":"info","message":"🚀 Server ready at http://localhost:7000","timestamp":"2020-10-16T08:31:46.639Z"}
+{"level":"info","message":"Connection to database established","timestamp":"2020-10-16T08:31:46.723Z"}
+{"level":"info","message":"🚀 Server ready at http://localhost:7000","timestamp":"2020-10-16T08:31:55.639Z"}
+{"level":"info","message":"Connection to database established","timestamp":"2020-10-16T08:31:55.675Z"}
+{"level":"info","message":"🚀 Server ready at http://localhost:7000","timestamp":"2020-10-16T08:31:58.205Z"}
+{"level":"info","message":"Connection to database established","timestamp":"2020-10-16T08:31:58.242Z"}
+{"level":"info","message":"🚀 Server ready at http://localhost:7000","timestamp":"2020-10-16T08:32:04.134Z"}
+{"level":"info","message":"Connection to database established","timestamp":"2020-10-16T08:32:04.196Z"}
+{"level":"info","message":"🚀 Server ready at http://localhost:7000","timestamp":"2020-10-16T08:32:05.827Z"}
+{"level":"info","message":"Connection to database established","timestamp":"2020-10-16T08:32:05.864Z"}
+{"level":"info","message":"🚀 Server ready at http://localhost:7000","timestamp":"2020-10-16T08:32:08.623Z"}
+{"level":"info","message":"Connection to database established","timestamp":"2020-10-16T08:32:08.662Z"}
+{"level":"info","message":"🚀 Server ready at http://localhost:7000","timestamp":"2020-10-16T08:32:11.455Z"}
+{"level":"info","message":"Connection to database established","timestamp":"2020-10-16T08:32:11.507Z"}
+{"level":"info","message":"🚀 Server ready at http://localhost:7000","timestamp":"2020-10-16T08:32:14.013Z"}
+{"level":"info","message":"Connection to database established","timestamp":"2020-10-16T08:32:14.050Z"}
+{"level":"info","message":"🚀 Server ready at http://localhost:7000","timestamp":"2020-10-16T08:32:17.052Z"}
+{"level":"info","message":"Connection to database established","timestamp":"2020-10-16T08:32:17.093Z"}
+{"level":"info","message":"🚀 Server ready at http://localhost:7000","timestamp":"2020-10-16T08:32:19.830Z"}
+{"level":"info","message":"Connection to database established","timestamp":"2020-10-16T08:32:19.858Z"}
+{"level":"info","message":"🚀 Server ready at http://localhost:7000","timestamp":"2020-10-16T08:32:25.377Z"}
+{"level":"info","message":"Connection to database established","timestamp":"2020-10-16T08:32:25.421Z"}
+{"level":"info","message":"🚀 Server ready at http://localhost:7000","timestamp":"2020-10-16T08:33:50.776Z"}
+{"level":"info","message":"Connection to database established","timestamp":"2020-10-16T08:33:50.847Z"}
+{"level":"info","message":"🚀 Server ready at http://localhost:7000","timestamp":"2020-10-16T08:33:52.187Z"}
+{"level":"info","message":"Connection to database established","timestamp":"2020-10-16T08:33:52.228Z"}
+{"level":"info","message":"🚀 Server ready at http://localhost:7000","timestamp":"2020-10-16T08:33:55.295Z"}
+{"level":"info","message":"Connection to database established","timestamp":"2020-10-16T08:33:55.332Z"}
+{"level":"info","message":"🚀 Server ready at http://localhost:7000","timestamp":"2020-10-16T08:34:00.686Z"}
+{"level":"info","message":"Connection to database established","timestamp":"2020-10-16T08:34:00.723Z"}
+{"level":"info","message":"🚀 Server ready at http://localhost:7000","timestamp":"2020-10-16T08:34:07.641Z"}
+{"level":"info","message":"Connection to database established","timestamp":"2020-10-16T08:34:07.676Z"}
+{"level":"info","message":"🚀 Server ready at http://localhost:7000","timestamp":"2020-10-16T08:34:09.889Z"}
+{"level":"info","message":"Connection to database established","timestamp":"2020-10-16T08:34:09.924Z"}
+{"level":"info","message":"🚀 Server ready at http://localhost:7000","timestamp":"2020-10-16T08:34:15.920Z"}
+{"level":"info","message":"Connection to database established","timestamp":"2020-10-16T08:34:15.961Z"}
+{"level":"info","message":"🚀 Server ready at http://localhost:7000","timestamp":"2020-10-16T08:34:17.718Z"}
+{"level":"info","message":"Connection to database established","timestamp":"2020-10-16T08:34:17.755Z"}
+{"level":"info","message":"🚀 Server ready at http://localhost:7000","timestamp":"2020-10-16T08:34:21.625Z"}
+{"level":"info","message":"Connection to database established","timestamp":"2020-10-16T08:34:21.660Z"}
+{"level":"info","message":"🚀 Server ready at http://localhost:7000","timestamp":"2020-10-16T08:35:32.249Z"}
+{"level":"info","message":"Connection to database established","timestamp":"2020-10-16T08:35:32.291Z"}
+{"level":"info","message":"🚀 Server ready at http://localhost:7000","timestamp":"2020-10-16T08:35:33.812Z"}
+{"level":"info","message":"Connection to database established","timestamp":"2020-10-16T08:35:33.854Z"}
+{"level":"info","message":"🚀 Server ready at http://localhost:7000","timestamp":"2020-10-16T08:35:37.680Z"}
+{"level":"info","message":"Connection to database established","timestamp":"2020-10-16T08:35:37.707Z"}
+{"level":"info","message":"🚀 Server ready at http://localhost:7000","timestamp":"2020-10-16T08:35:43.906Z"}
+{"level":"info","message":"Connection to database established","timestamp":"2020-10-16T08:35:43.942Z"}
+{"level":"info","message":"🚀 Server ready at http://localhost:7000","timestamp":"2020-10-16T08:35:45.188Z"}
+{"level":"info","message":"Connection to database established","timestamp":"2020-10-16T08:35:45.223Z"}
+{"level":"info","message":"🚀 Server ready at http://localhost:7000","timestamp":"2020-10-16T08:35:49.583Z"}
+{"level":"info","message":"Connection to database established","timestamp":"2020-10-16T08:35:49.625Z"}
+{"level":"info","message":"🚀 Server ready at http://localhost:7000","timestamp":"2020-10-16T08:35:53.911Z"}
+{"level":"info","message":"Connection to database established","timestamp":"2020-10-16T08:35:53.950Z"}
+{"level":"info","message":"🚀 Server ready at http://localhost:7000","timestamp":"2020-10-16T08:35:57.004Z"}
+{"level":"info","message":"Connection to database established","timestamp":"2020-10-16T08:35:57.041Z"}
+{"level":"info","message":"🚀 Server ready at http://localhost:7000","timestamp":"2020-10-16T08:36:12.987Z"}
+{"level":"info","message":"Connection to database established","timestamp":"2020-10-16T08:36:13.039Z"}
+{"level":"info","message":"🚀 Server ready at http://localhost:7000","timestamp":"2020-10-16T08:36:15.560Z"}
+{"level":"info","message":"Connection to database established","timestamp":"2020-10-16T08:36:15.598Z"}
+{"level":"info","message":"🚀 Server ready at http://localhost:7000","timestamp":"2020-10-16T08:36:18.038Z"}
+{"level":"info","message":"Connection to database established","timestamp":"2020-10-16T08:36:18.085Z"}
+{"level":"info","message":"🚀 Server ready at http://localhost:7000","timestamp":"2020-10-16T08:36:24.248Z"}
+{"level":"info","message":"Connection to database established","timestamp":"2020-10-16T08:36:24.286Z"}
+{"level":"info","message":"🚀 Server ready at http://localhost:7000","timestamp":"2020-10-16T08:36:25.736Z"}
+{"level":"info","message":"Connection to database established","timestamp":"2020-10-16T08:36:25.776Z"}
+{"level":"info","message":"🚀 Server ready at http://localhost:7000","timestamp":"2020-10-16T08:36:27.975Z"}
+{"level":"info","message":"Connection to database established","timestamp":"2020-10-16T08:36:28.018Z"}
+{"level":"info","message":"🚀 Server ready at http://localhost:7000","timestamp":"2020-10-16T08:36:31.393Z"}
+{"level":"info","message":"Connection to database established","timestamp":"2020-10-16T08:36:31.433Z"}
+{"level":"info","message":"🚀 Server ready at http://localhost:7000","timestamp":"2020-10-16T08:36:35.127Z"}
+{"level":"info","message":"Connection to database established","timestamp":"2020-10-16T08:36:35.176Z"}
+{"level":"info","message":"🚀 Server ready at http://localhost:7000","timestamp":"2020-10-16T08:36:41.378Z"}
+{"level":"info","message":"Connection to database established","timestamp":"2020-10-16T08:36:41.414Z"}
+{"level":"info","message":"🚀 Server ready at http://localhost:7000","timestamp":"2020-10-16T08:37:01.269Z"}
+{"level":"info","message":"Connection to database established","timestamp":"2020-10-16T08:37:01.301Z"}
+{"level":"info","message":"🚀 Server ready at http://localhost:7000","timestamp":"2020-10-16T08:37:06.536Z"}
+{"level":"info","message":"Connection to database established","timestamp":"2020-10-16T08:37:06.572Z"}
+{"level":"info","message":"🚀 Server ready at http://localhost:7000","timestamp":"2020-10-16T08:37:17.666Z"}
+{"level":"info","message":"Connection to database established","timestamp":"2020-10-16T08:37:17.704Z"}
+{"level":"info","message":"🚀 Server ready at http://localhost:7000","timestamp":"2020-10-16T08:37:20.086Z"}
+{"level":"info","message":"Connection to database established","timestamp":"2020-10-16T08:37:20.122Z"}
+{"level":"info","message":"🚀 Server ready at http://localhost:7000","timestamp":"2020-10-16T08:37:21.317Z"}
+{"level":"info","message":"Connection to database established","timestamp":"2020-10-16T08:37:21.354Z"}
+{"level":"info","message":"🚀 Server ready at http://localhost:7000","timestamp":"2020-10-16T08:37:23.118Z"}
+{"level":"info","message":"Connection to database established","timestamp":"2020-10-16T08:37:23.151Z"}
+{"level":"info","message":"🚀 Server ready at http://localhost:7000","timestamp":"2020-10-16T08:37:31.413Z"}
+{"level":"info","message":"Connection to database established","timestamp":"2020-10-16T08:37:31.454Z"}
+{"level":"info","message":"🚀 Server ready at http://localhost:7000","timestamp":"2020-10-16T08:37:34.769Z"}
+{"level":"info","message":"Connection to database established","timestamp":"2020-10-16T08:37:34.812Z"}
+{"level":"info","message":"🚀 Server ready at http://localhost:7000","timestamp":"2020-10-16T08:37:36.126Z"}
+{"level":"info","message":"Connection to database established","timestamp":"2020-10-16T08:37:36.168Z"}
+{"level":"info","message":"🚀 Server ready at http://localhost:7000","timestamp":"2020-10-16T08:37:37.646Z"}
+{"level":"info","message":"Connection to database established","timestamp":"2020-10-16T08:37:37.683Z"}
+{"level":"info","message":"🚀 Server ready at http://localhost:7000","timestamp":"2020-10-16T08:37:41.139Z"}
+{"level":"info","message":"Connection to database established","timestamp":"2020-10-16T08:37:41.190Z"}
+{"level":"info","message":"🚀 Server ready at http://localhost:7000","timestamp":"2020-10-16T08:37:44.247Z"}
+{"level":"info","message":"Connection to database established","timestamp":"2020-10-16T08:37:44.286Z"}
+{"level":"info","message":"🚀 Server ready at http://localhost:7000","timestamp":"2020-10-16T08:37:47.064Z"}
+{"level":"info","message":"Connection to database established","timestamp":"2020-10-16T08:37:47.108Z"}
+{"level":"info","message":"🚀 Server ready at http://localhost:7000","timestamp":"2020-10-16T08:37:51.956Z"}
+{"level":"info","message":"Connection to database established","timestamp":"2020-10-16T08:37:51.994Z"}
+{"level":"info","message":"🚀 Server ready at http://localhost:7000","timestamp":"2020-10-16T08:37:58.807Z"}
+{"level":"info","message":"Connection to database established","timestamp":"2020-10-16T08:37:58.874Z"}
+{"level":"info","message":"🚀 Server ready at http://localhost:7000","timestamp":"2020-10-16T08:38:00.686Z"}
+{"level":"info","message":"Connection to database established","timestamp":"2020-10-16T08:38:00.724Z"}
+{"level":"info","message":"🚀 Server ready at http://localhost:7000","timestamp":"2020-10-16T08:38:06.560Z"}
+{"level":"info","message":"Connection to database established","timestamp":"2020-10-16T08:38:06.611Z"}
+{"level":"info","message":"🚀 Server ready at http://localhost:7000","timestamp":"2020-10-16T08:38:08.013Z"}
+{"level":"info","message":"Connection to database established","timestamp":"2020-10-16T08:38:08.043Z"}
+{"level":"info","message":"🚀 Server ready at http://localhost:7000","timestamp":"2020-10-16T08:38:12.665Z"}
+{"level":"info","message":"Connection to database established","timestamp":"2020-10-16T08:38:12.699Z"}
+{"level":"info","message":"🚀 Server ready at http://localhost:7000","timestamp":"2020-10-16T08:38:15.801Z"}
+{"level":"info","message":"Connection to database established","timestamp":"2020-10-16T08:38:15.839Z"}
+{"level":"info","message":"🚀 Server ready at http://localhost:7000","timestamp":"2020-10-16T08:38:16.979Z"}
+{"level":"info","message":"Connection to database established","timestamp":"2020-10-16T08:38:17.017Z"}
+{"level":"info","message":"🚀 Server ready at http://localhost:7000","timestamp":"2020-10-16T08:38:18.167Z"}
+{"level":"info","message":"Connection to database established","timestamp":"2020-10-16T08:38:18.204Z"}
+{"level":"info","message":"🚀 Server ready at http://localhost:7000","timestamp":"2020-10-16T08:38:19.404Z"}
+{"level":"info","message":"Connection to database established","timestamp":"2020-10-16T08:38:19.442Z"}
+{"level":"info","message":"🚀 Server ready at http://localhost:7000","timestamp":"2020-10-16T08:38:26.184Z"}
+{"level":"info","message":"Connection to database established","timestamp":"2020-10-16T08:38:26.224Z"}
+{"level":"info","message":"🚀 Server ready at http://localhost:7000","timestamp":"2020-10-16T08:38:28.819Z"}
+{"level":"info","message":"Connection to database established","timestamp":"2020-10-16T08:38:28.856Z"}
+{"level":"info","message":"🚀 Server ready at http://localhost:7000","timestamp":"2020-10-16T08:38:30.535Z"}
+{"level":"info","message":"Connection to database established","timestamp":"2020-10-16T08:38:30.583Z"}
+{"level":"info","message":"🚀 Server ready at http://localhost:7000","timestamp":"2020-10-16T08:38:37.717Z"}
+{"level":"info","message":"Connection to database established","timestamp":"2020-10-16T08:38:37.743Z"}
+{"level":"info","message":"🚀 Server ready at http://localhost:7000","timestamp":"2020-10-16T08:38:40.696Z"}
+{"level":"info","message":"Connection to database established","timestamp":"2020-10-16T08:38:40.732Z"}
+{"level":"info","message":"🚀 Server ready at http://localhost:7000","timestamp":"2020-10-16T08:38:41.977Z"}
+{"level":"info","message":"Connection to database established","timestamp":"2020-10-16T08:38:42.026Z"}
+{"level":"info","message":"🚀 Server ready at http://localhost:7000","timestamp":"2020-10-16T08:38:49.745Z"}
+{"level":"info","message":"Connection to database established","timestamp":"2020-10-16T08:38:49.799Z"}
+{"level":"info","message":"🚀 Server ready at http://localhost:7000","timestamp":"2020-10-16T08:38:52.311Z"}
+{"level":"info","message":"Connection to database established","timestamp":"2020-10-16T08:38:52.360Z"}
+{"level":"info","message":"🚀 Server ready at http://localhost:7000","timestamp":"2020-10-16T08:38:54.982Z"}
+{"level":"info","message":"Connection to database established","timestamp":"2020-10-16T08:38:55.009Z"}
+{"level":"info","message":"🚀 Server ready at http://localhost:7000","timestamp":"2020-10-16T08:38:57.771Z"}
+{"level":"info","message":"Connection to database established","timestamp":"2020-10-16T08:38:57.808Z"}
+{"level":"info","message":"🚀 Server ready at http://localhost:7000","timestamp":"2020-10-16T08:39:00.035Z"}
+{"level":"info","message":"Connection to database established","timestamp":"2020-10-16T08:39:00.092Z"}
+{"level":"info","message":"🚀 Server ready at http://localhost:7000","timestamp":"2020-10-16T08:39:02.476Z"}
+{"level":"info","message":"Connection to database established","timestamp":"2020-10-16T08:39:02.509Z"}
+{"level":"info","message":"🚀 Server ready at http://localhost:7000","timestamp":"2020-10-16T08:39:04.584Z"}
+{"level":"info","message":"Connection to database established","timestamp":"2020-10-16T08:39:04.646Z"}
+{"level":"info","message":"🚀 Server ready at http://localhost:7000","timestamp":"2020-10-16T08:39:05.872Z"}
+{"level":"info","message":"Connection to database established","timestamp":"2020-10-16T08:39:05.907Z"}
+{"level":"info","message":"🚀 Server ready at http://localhost:7000","timestamp":"2020-10-16T08:39:10.958Z"}
+{"level":"info","message":"Connection to database established","timestamp":"2020-10-16T08:39:10.984Z"}
+{"level":"info","message":"🚀 Server ready at http://localhost:7000","timestamp":"2020-10-16T08:39:19.390Z"}
+{"level":"info","message":"Connection to database established","timestamp":"2020-10-16T08:39:19.418Z"}
+{"level":"info","message":"🚀 Server ready at http://localhost:7000","timestamp":"2020-10-16T08:39:21.725Z"}
+{"level":"info","message":"Connection to database established","timestamp":"2020-10-16T08:39:21.763Z"}
+{"level":"info","message":"🚀 Server ready at http://localhost:7000","timestamp":"2020-10-16T08:40:22.658Z"}
+{"level":"info","message":"Connection to database established","timestamp":"2020-10-16T08:40:22.734Z"}
+{"level":"info","message":"🚀 Server ready at http://localhost:7000","timestamp":"2020-10-16T08:40:26.713Z"}
+{"level":"info","message":"Connection to database established","timestamp":"2020-10-16T08:40:26.751Z"}
+{"level":"info","message":"🚀 Server ready at http://localhost:7000","timestamp":"2020-10-16T08:40:29.745Z"}
+{"level":"info","message":"Connection to database established","timestamp":"2020-10-16T08:40:29.781Z"}
+{"level":"info","message":"🚀 Server ready at http://localhost:7000","timestamp":"2020-10-16T08:40:38.119Z"}
+{"level":"info","message":"Connection to database established","timestamp":"2020-10-16T08:40:38.156Z"}
+{"level":"info","message":"🚀 Server ready at http://localhost:7000","timestamp":"2020-10-16T08:40:39.443Z"}
+{"level":"info","message":"Connection to database established","timestamp":"2020-10-16T08:40:39.477Z"}
+{"level":"info","message":"🚀 Server ready at http://localhost:7000","timestamp":"2020-10-16T08:40:42.558Z"}
+{"level":"info","message":"Connection to database established","timestamp":"2020-10-16T08:40:42.608Z"}
+{"level":"info","message":"🚀 Server ready at http://localhost:7000","timestamp":"2020-10-16T08:40:46.164Z"}
+{"level":"info","message":"Connection to database established","timestamp":"2020-10-16T08:40:46.199Z"}
+{"level":"info","message":"🚀 Server ready at http://localhost:7000","timestamp":"2020-10-16T08:40:48.649Z"}
+{"level":"info","message":"Connection to database established","timestamp":"2020-10-16T08:40:48.685Z"}
+{"level":"info","message":"🚀 Server ready at http://localhost:7000","timestamp":"2020-10-16T08:40:52.283Z"}
+{"level":"info","message":"Connection to database established","timestamp":"2020-10-16T08:40:52.323Z"}
+{"level":"info","message":"🚀 Server ready at http://localhost:7000","timestamp":"2020-10-16T08:40:53.399Z"}
+{"level":"info","message":"Connection to database established","timestamp":"2020-10-16T08:40:53.435Z"}
+{"level":"info","message":"🚀 Server ready at http://localhost:7000","timestamp":"2020-10-16T08:41:09.945Z"}
+{"level":"info","message":"Connection to database established","timestamp":"2020-10-16T08:41:09.991Z"}
+{"level":"info","message":"🚀 Server ready at http://localhost:7000","timestamp":"2020-10-16T08:41:12.810Z"}
+{"level":"info","message":"Connection to database established","timestamp":"2020-10-16T08:41:12.850Z"}
+{"level":"info","message":"🚀 Server ready at http://localhost:7000","timestamp":"2020-10-16T08:41:18.158Z"}
+{"level":"info","message":"Connection to database established","timestamp":"2020-10-16T08:41:18.205Z"}
+{"level":"info","message":"🚀 Server ready at http://localhost:7000","timestamp":"2020-10-16T08:41:21.737Z"}
+{"level":"info","message":"Connection to database established","timestamp":"2020-10-16T08:41:21.773Z"}
+{"level":"info","message":"🚀 Server ready at http://localhost:7000","timestamp":"2020-10-16T08:45:15.878Z"}
+{"level":"info","message":"Connection to database established","timestamp":"2020-10-16T08:45:15.915Z"}
+{"level":"info","message":"🚀 Server ready at http://localhost:7000","timestamp":"2020-10-16T08:45:30.163Z"}
+{"level":"info","message":"Connection to database established","timestamp":"2020-10-16T08:45:30.202Z"}
+{"level":"info","message":"🚀 Server ready at http://localhost:7000","timestamp":"2020-10-16T08:46:03.238Z"}
+{"level":"info","message":"Connection to database established","timestamp":"2020-10-16T08:46:03.277Z"}
+{"level":"info","message":"🚀 Server ready at http://localhost:7000","timestamp":"2020-10-16T08:46:09.460Z"}
+{"level":"info","message":"Connection to database established","timestamp":"2020-10-16T08:46:09.498Z"}
+{"level":"info","message":"🚀 Server ready at http://localhost:7000","timestamp":"2020-10-16T08:48:54.604Z"}
+{"level":"info","message":"Connection to database established","timestamp":"2020-10-16T08:48:54.636Z"}
+{"level":"info","message":"🚀 Server ready at http://localhost:7000","timestamp":"2020-10-16T08:48:59.013Z"}
+{"level":"info","message":"Connection to database established","timestamp":"2020-10-16T08:48:59.069Z"}
+{"level":"info","message":"🚀 Server ready at http://localhost:7000","timestamp":"2020-10-16T08:50:21.183Z"}
+{"level":"info","message":"Connection to database established","timestamp":"2020-10-16T08:50:21.213Z"}
+{"level":"info","message":"🚀 Server ready at http://localhost:7000","timestamp":"2020-10-16T08:50:38.285Z"}
+{"level":"info","message":"Connection to database established","timestamp":"2020-10-16T08:50:38.312Z"}
+{"level":"info","message":"🚀 Server ready at http://localhost:7000","timestamp":"2020-10-16T08:50:40.071Z"}
+{"level":"info","message":"Connection to database established","timestamp":"2020-10-16T08:50:40.098Z"}
+{"level":"info","message":"🚀 Server ready at http://localhost:7000","timestamp":"2020-10-16T08:50:41.598Z"}
+{"level":"info","message":"Connection to database established","timestamp":"2020-10-16T08:50:41.634Z"}
+{"level":"info","message":"🚀 Server ready at http://localhost:7000","timestamp":"2020-10-16T08:50:43.788Z"}
+{"level":"info","message":"Connection to database established","timestamp":"2020-10-16T08:50:43.832Z"}
+{"level":"info","message":"🚀 Server ready at http://localhost:7000","timestamp":"2020-10-16T08:50:47.871Z"}
+{"level":"info","message":"Connection to database established","timestamp":"2020-10-16T08:50:47.898Z"}
+{"level":"info","message":"🚀 Server ready at http://localhost:7000","timestamp":"2020-10-16T08:50:59.509Z"}
+{"level":"info","message":"Connection to database established","timestamp":"2020-10-16T08:50:59.536Z"}
+{"level":"info","message":"🚀 Server ready at http://localhost:7000","timestamp":"2020-10-16T08:51:05.152Z"}
+{"level":"info","message":"Connection to database established","timestamp":"2020-10-16T08:51:05.193Z"}
+{"level":"info","message":"🚀 Server ready at http://localhost:7000","timestamp":"2020-10-16T08:51:10.583Z"}
+{"level":"info","message":"Connection to database established","timestamp":"2020-10-16T08:51:10.612Z"}
+{"level":"info","message":"🚀 Server ready at http://localhost:7000","timestamp":"2020-10-16T08:51:18.219Z"}
+{"level":"info","message":"Connection to database established","timestamp":"2020-10-16T08:51:18.245Z"}
+{"level":"info","message":"🚀 Server ready at http://localhost:7000","timestamp":"2020-10-16T08:51:25.273Z"}
+{"level":"info","message":"Connection to database established","timestamp":"2020-10-16T08:51:25.310Z"}
+{"level":"info","message":"🚀 Server ready at http://localhost:7000","timestamp":"2020-10-16T08:51:28.191Z"}
+{"level":"info","message":"Connection to database established","timestamp":"2020-10-16T08:51:28.219Z"}
+{"level":"info","message":"🚀 Server ready at http://localhost:7000","timestamp":"2020-10-16T08:51:50.772Z"}
+{"level":"info","message":"Connection to database established","timestamp":"2020-10-16T08:51:50.807Z"}
+{"level":"info","message":"🚀 Server ready at http://localhost:7000","timestamp":"2020-10-16T08:51:55.540Z"}
+{"level":"info","message":"Connection to database established","timestamp":"2020-10-16T08:51:55.576Z"}
+{"level":"info","message":"🚀 Server ready at http://localhost:7000","timestamp":"2020-10-16T08:52:09.873Z"}
+{"level":"info","message":"Connection to database established","timestamp":"2020-10-16T08:52:09.921Z"}
+{"level":"info","message":"🚀 Server ready at http://localhost:7000","timestamp":"2020-10-16T08:52:31.844Z"}
+{"level":"info","message":"Connection to database established","timestamp":"2020-10-16T08:52:31.877Z"}
+{"level":"info","message":"🚀 Server ready at http://localhost:7000","timestamp":"2020-10-16T08:52:33.102Z"}
+{"level":"info","message":"Connection to database established","timestamp":"2020-10-16T08:52:33.128Z"}
+{"level":"info","message":"🚀 Server ready at http://localhost:7000","timestamp":"2020-10-16T08:52:45.512Z"}
+{"level":"info","message":"Connection to database established","timestamp":"2020-10-16T08:52:45.547Z"}
+{"level":"info","message":"🚀 Server ready at http://localhost:7000","timestamp":"2020-10-16T08:52:49.470Z"}
+{"level":"info","message":"Connection to database established","timestamp":"2020-10-16T08:52:49.495Z"}
+{"level":"info","message":"🚀 Server ready at http://localhost:7000","timestamp":"2020-10-16T08:52:56.575Z"}
+{"level":"info","message":"Connection to database established","timestamp":"2020-10-16T08:52:56.601Z"}
+{"level":"info","message":"🚀 Server ready at http://localhost:7000","timestamp":"2020-10-16T08:53:05.132Z"}
+{"level":"info","message":"Connection to database established","timestamp":"2020-10-16T08:53:05.157Z"}
+{"level":"info","message":"🚀 Server ready at http://localhost:7000","timestamp":"2020-10-16T08:53:08.922Z"}
+{"level":"info","message":"Connection to database established","timestamp":"2020-10-16T08:53:08.965Z"}
+{"level":"info","message":"🚀 Server ready at http://localhost:7000","timestamp":"2020-10-16T08:53:11.039Z"}
+{"level":"info","message":"Connection to database established","timestamp":"2020-10-16T08:53:11.067Z"}
+{"level":"info","message":"🚀 Server ready at http://localhost:7000","timestamp":"2020-10-16T08:53:20.262Z"}
+{"level":"info","message":"Connection to database established","timestamp":"2020-10-16T08:53:20.302Z"}
+{"level":"info","message":"🚀 Server ready at http://localhost:7000","timestamp":"2020-10-16T08:53:22.375Z"}
+{"level":"info","message":"Connection to database established","timestamp":"2020-10-16T08:53:22.424Z"}
+{"level":"info","message":"🚀 Server ready at http://localhost:7000","timestamp":"2020-10-16T08:53:30.275Z"}
+{"level":"info","message":"Connection to database established","timestamp":"2020-10-16T08:53:30.323Z"}
+{"level":"info","message":"🚀 Server ready at http://localhost:7000","timestamp":"2020-10-16T08:53:34.597Z"}
+{"level":"info","message":"Connection to database established","timestamp":"2020-10-16T08:53:34.633Z"}
+{"level":"info","message":"🚀 Server ready at http://localhost:7000","timestamp":"2020-10-16T08:53:39.391Z"}
+{"level":"info","message":"Connection to database established","timestamp":"2020-10-16T08:53:39.423Z"}
+{"level":"info","message":"🚀 Server ready at http://localhost:7000","timestamp":"2020-10-16T08:53:42.519Z"}
+{"level":"info","message":"Connection to database established","timestamp":"2020-10-16T08:53:42.543Z"}
+{"level":"info","message":"🚀 Server ready at http://localhost:7000","timestamp":"2020-10-16T08:54:25.116Z"}
+{"level":"info","message":"Connection to database established","timestamp":"2020-10-16T08:54:25.156Z"}
+{"level":"info","message":"🚀 Server ready at http://localhost:7000","timestamp":"2020-10-16T08:54:27.831Z"}
+{"level":"info","message":"Connection to database established","timestamp":"2020-10-16T08:54:27.867Z"}
+{"level":"info","message":"🚀 Server ready at http://localhost:7000","timestamp":"2020-10-16T08:54:36.799Z"}
+{"level":"info","message":"Connection to database established","timestamp":"2020-10-16T08:54:36.825Z"}
+{"level":"info","message":"🚀 Server ready at http://localhost:7000","timestamp":"2020-10-16T08:54:42.910Z"}
+{"level":"info","message":"Connection to database established","timestamp":"2020-10-16T08:54:42.956Z"}
+{"level":"info","message":"🚀 Server ready at http://localhost:7000","timestamp":"2020-10-16T08:54:49.404Z"}
+{"level":"info","message":"Connection to database established","timestamp":"2020-10-16T08:54:49.431Z"}
+{"level":"info","message":"🚀 Server ready at http://localhost:7000","timestamp":"2020-10-16T08:54:51.773Z"}
+{"level":"info","message":"Connection to database established","timestamp":"2020-10-16T08:54:51.805Z"}
+{"level":"info","message":"🚀 Server ready at http://localhost:7000","timestamp":"2020-10-16T08:54:53.065Z"}
+{"level":"info","message":"Connection to database established","timestamp":"2020-10-16T08:54:53.103Z"}
+{"level":"info","message":"🚀 Server ready at http://localhost:7000","timestamp":"2020-10-16T08:54:58.779Z"}
+{"level":"info","message":"Connection to database established","timestamp":"2020-10-16T08:54:58.808Z"}
+{"level":"info","message":"🚀 Server ready at http://localhost:7000","timestamp":"2020-10-16T08:55:03.239Z"}
+{"level":"info","message":"Connection to database established","timestamp":"2020-10-16T08:55:03.264Z"}
+{"level":"info","message":"🚀 Server ready at http://localhost:7000","timestamp":"2020-10-16T08:55:08.847Z"}
+{"level":"info","message":"Connection to database established","timestamp":"2020-10-16T08:55:08.872Z"}
+{"level":"info","message":"🚀 Server ready at http://localhost:7000","timestamp":"2020-10-16T08:55:13.570Z"}
+{"level":"info","message":"Connection to database established","timestamp":"2020-10-16T08:55:13.604Z"}
+{"level":"info","message":"🚀 Server ready at http://localhost:7000","timestamp":"2020-10-16T08:55:19.133Z"}
+{"level":"info","message":"Connection to database established","timestamp":"2020-10-16T08:55:19.162Z"}
+{"level":"info","message":"🚀 Server ready at http://localhost:7000","timestamp":"2020-10-16T08:55:22.170Z"}
+{"level":"info","message":"Connection to database established","timestamp":"2020-10-16T08:55:22.197Z"}
+{"level":"info","message":"🚀 Server ready at http://localhost:7000","timestamp":"2020-10-16T08:55:24.685Z"}
+{"level":"info","message":"Connection to database established","timestamp":"2020-10-16T08:55:24.726Z"}
+{"level":"info","message":"🚀 Server ready at http://localhost:7000","timestamp":"2020-10-16T08:55:29.912Z"}
+{"level":"info","message":"Connection to database established","timestamp":"2020-10-16T08:55:29.943Z"}
+{"level":"info","message":"🚀 Server ready at http://localhost:7000","timestamp":"2020-10-16T08:55:34.335Z"}
+{"level":"info","message":"Connection to database established","timestamp":"2020-10-16T08:55:34.360Z"}
+{"level":"info","message":"🚀 Server ready at http://localhost:7000","timestamp":"2020-10-16T08:55:38.541Z"}
+{"level":"info","message":"Connection to database established","timestamp":"2020-10-16T08:55:38.574Z"}
+{"level":"info","message":"🚀 Server ready at http://localhost:7000","timestamp":"2020-10-16T08:55:45.172Z"}
+{"level":"info","message":"Connection to database established","timestamp":"2020-10-16T08:55:45.211Z"}
+{"level":"info","message":"🚀 Server ready at http://localhost:7000","timestamp":"2020-10-16T08:55:50.226Z"}
+{"level":"info","message":"Connection to database established","timestamp":"2020-10-16T08:55:50.251Z"}
+{"level":"info","message":"🚀 Server ready at http://localhost:7000","timestamp":"2020-10-16T08:55:55.871Z"}
+{"level":"info","message":"Connection to database established","timestamp":"2020-10-16T08:55:55.895Z"}
+{"level":"info","message":"🚀 Server ready at http://localhost:7000","timestamp":"2020-10-16T08:58:02.321Z"}
+{"level":"info","message":"Connection to database established","timestamp":"2020-10-16T08:58:02.359Z"}
+{"level":"info","message":"🚀 Server ready at http://localhost:7000","timestamp":"2020-10-16T08:59:17.162Z"}
+{"level":"info","message":"Connection to database established","timestamp":"2020-10-16T08:59:17.197Z"}
+{"level":"info","message":"🚀 Server ready at http://localhost:7000","timestamp":"2020-10-16T08:59:21.924Z"}
+{"level":"info","message":"Connection to database established","timestamp":"2020-10-16T08:59:21.963Z"}
+{"level":"info","message":"🚀 Server ready at http://localhost:7000","timestamp":"2020-10-16T08:59:54.559Z"}
+{"level":"info","message":"Connection to database established","timestamp":"2020-10-16T08:59:54.592Z"}
+{"level":"info","message":"🚀 Server ready at http://localhost:7000","timestamp":"2020-10-16T08:59:58.833Z"}
+{"level":"info","message":"Connection to database established","timestamp":"2020-10-16T08:59:58.857Z"}
+{"level":"info","message":"🚀 Server ready at http://localhost:7000","timestamp":"2020-10-16T09:00:30.642Z"}
+{"level":"info","message":"Connection to database established","timestamp":"2020-10-16T09:00:30.668Z"}
+{"level":"info","message":"🚀 Server ready at http://localhost:7000","timestamp":"2020-10-16T09:00:39.071Z"}
+{"level":"info","message":"Connection to database established","timestamp":"2020-10-16T09:00:39.097Z"}
+{"level":"info","message":"🚀 Server ready at http://localhost:7000","timestamp":"2020-10-16T09:00:42.297Z"}
+{"level":"info","message":"Connection to database established","timestamp":"2020-10-16T09:00:42.336Z"}
+{"level":"info","message":"🚀 Server ready at http://localhost:7000","timestamp":"2020-10-16T09:00:43.994Z"}
+{"level":"info","message":"Connection to database established","timestamp":"2020-10-16T09:00:44.028Z"}
+{"level":"info","message":"🚀 Server ready at http://localhost:7000","timestamp":"2020-10-16T09:00:46.015Z"}
+{"level":"info","message":"Connection to database established","timestamp":"2020-10-16T09:00:46.039Z"}
+{"level":"info","message":"🚀 Server ready at http://localhost:7000","timestamp":"2020-10-16T09:00:51.014Z"}
+{"level":"info","message":"Connection to database established","timestamp":"2020-10-16T09:00:51.046Z"}
+{"level":"info","message":"🚀 Server ready at http://localhost:7000","timestamp":"2020-10-16T09:02:08.819Z"}
+{"level":"info","message":"Connection to database established","timestamp":"2020-10-16T09:02:08.847Z"}
+{"level":"info","message":"🚀 Server ready at http://localhost:7000","timestamp":"2020-10-16T09:02:23.366Z"}
+{"level":"info","message":"Connection to database established","timestamp":"2020-10-16T09:02:23.391Z"}
+{"level":"info","message":"🚀 Server ready at http://localhost:7000","timestamp":"2020-10-16T09:02:25.768Z"}
+{"level":"info","message":"Connection to database established","timestamp":"2020-10-16T09:02:25.794Z"}
+{"level":"info","message":"🚀 Server ready at http://localhost:7000","timestamp":"2020-10-16T09:02:29.697Z"}
+{"level":"info","message":"Connection to database established","timestamp":"2020-10-16T09:02:29.742Z"}
+{"level":"info","message":"🚀 Server ready at http://localhost:7000","timestamp":"2020-10-16T09:02:32.466Z"}
+{"level":"info","message":"Connection to database established","timestamp":"2020-10-16T09:02:32.491Z"}
+{"level":"info","message":"🚀 Server ready at http://localhost:7000","timestamp":"2020-10-16T09:02:41.234Z"}
+{"level":"info","message":"Connection to database established","timestamp":"2020-10-16T09:02:41.260Z"}
+{"level":"info","message":"🚀 Server ready at http://localhost:7000","timestamp":"2020-10-16T09:02:45.906Z"}
+{"level":"info","message":"Connection to database established","timestamp":"2020-10-16T09:02:45.951Z"}
+{"level":"info","message":"🚀 Server ready at http://localhost:7000","timestamp":"2020-10-16T09:03:29.389Z"}
+{"level":"info","message":"Connection to database established","timestamp":"2020-10-16T09:03:29.432Z"}
+{"level":"info","message":"🚀 Server ready at http://localhost:7000","timestamp":"2020-10-16T09:03:35.430Z"}
+{"level":"info","message":"Connection to database established","timestamp":"2020-10-16T09:03:35.462Z"}
+{"level":"info","message":"🚀 Server ready at http://localhost:7000","timestamp":"2020-10-16T09:04:05.075Z"}
+{"level":"info","message":"Connection to database established","timestamp":"2020-10-16T09:04:05.108Z"}
+{"level":"info","message":"🚀 Server ready at http://localhost:7000","timestamp":"2020-10-16T09:04:51.656Z"}
+{"level":"info","message":"Connection to database established","timestamp":"2020-10-16T09:04:51.683Z"}
+{"level":"info","message":"🚀 Server ready at http://localhost:7000","timestamp":"2020-10-16T09:05:27.840Z"}
+{"level":"info","message":"Connection to database established","timestamp":"2020-10-16T09:05:27.905Z"}
+{"level":"info","message":"🚀 Server ready at http://localhost:7000","timestamp":"2020-10-16T09:05:38.882Z"}
+{"level":"info","message":"Connection to database established","timestamp":"2020-10-16T09:05:38.923Z"}
+{"level":"info","message":"🚀 Server ready at http://localhost:7000","timestamp":"2020-10-16T09:05:40.416Z"}
+{"level":"info","message":"Connection to database established","timestamp":"2020-10-16T09:05:40.456Z"}
+{"level":"info","message":"🚀 Server ready at http://localhost:7000","timestamp":"2020-10-16T09:05:45.457Z"}
+{"level":"info","message":"Connection to database established","timestamp":"2020-10-16T09:05:45.486Z"}
+{"level":"info","message":"🚀 Server ready at http://localhost:7000","timestamp":"2020-10-16T09:05:49.439Z"}
+{"level":"info","message":"Connection to database established","timestamp":"2020-10-16T09:05:49.464Z"}
+{"level":"info","message":"🚀 Server ready at http://localhost:7000","timestamp":"2020-10-16T09:05:56.594Z"}
+{"level":"info","message":"Connection to database established","timestamp":"2020-10-16T09:05:56.621Z"}
+{"level":"info","message":"🚀 Server ready at http://localhost:7000","timestamp":"2020-10-16T09:06:05.716Z"}
+{"level":"info","message":"Connection to database established","timestamp":"2020-10-16T09:06:05.756Z"}
+{"level":"info","message":"🚀 Server ready at http://localhost:7000","timestamp":"2020-10-16T09:11:37.842Z"}
+{"level":"info","message":"Connection to database established","timestamp":"2020-10-16T09:11:37.881Z"}
+{"level":"info","message":"🚀 Server ready at http://localhost:7000","timestamp":"2020-10-16T09:12:54.508Z"}
+{"level":"info","message":"Connection to database established","timestamp":"2020-10-16T09:12:54.545Z"}
+{"level":"info","message":"🚀 Server ready at http://localhost:7000","timestamp":"2020-10-16T09:12:58.200Z"}
+{"level":"info","message":"Connection to database established","timestamp":"2020-10-16T09:12:58.228Z"}
+{"level":"info","message":"🚀 Server ready at http://localhost:7000","timestamp":"2020-10-16T09:13:06.438Z"}
+{"level":"info","message":"Connection to database established","timestamp":"2020-10-16T09:13:06.468Z"}
+{"level":"info","message":"🚀 Server ready at http://localhost:7000","timestamp":"2020-10-16T09:13:10.925Z"}
+{"level":"info","message":"Connection to database established","timestamp":"2020-10-16T09:13:10.953Z"}
+{"level":"info","message":"🚀 Server ready at http://localhost:7000","timestamp":"2020-10-16T09:13:20.933Z"}
+{"level":"info","message":"Connection to database established","timestamp":"2020-10-16T09:13:20.998Z"}
+{"level":"info","message":"🚀 Server ready at http://localhost:7000","timestamp":"2020-10-16T09:14:42.116Z"}
+{"level":"info","message":"Connection to database established","timestamp":"2020-10-16T09:14:42.160Z"}
+{"level":"info","message":"🚀 Server ready at http://localhost:7000","timestamp":"2020-10-16T09:14:43.710Z"}
+{"level":"info","message":"Connection to database established","timestamp":"2020-10-16T09:14:43.735Z"}
+{"level":"info","message":"🚀 Server ready at http://localhost:7000","timestamp":"2020-10-16T09:15:00.554Z"}
+{"level":"info","message":"Connection to database established","timestamp":"2020-10-16T09:15:00.581Z"}
+{"level":"info","message":"🚀 Server ready at http://localhost:7000","timestamp":"2020-10-16T09:15:21.244Z"}
+{"level":"info","message":"Connection to database established","timestamp":"2020-10-16T09:15:21.270Z"}
+{"level":"info","message":"🚀 Server ready at http://localhost:7000","timestamp":"2020-10-16T09:21:41.582Z"}
+{"level":"info","message":"Connection to database established","timestamp":"2020-10-16T09:21:41.657Z"}
+{"level":"info","message":"🚀 Server ready at http://localhost:7000","timestamp":"2020-10-16T09:26:51.684Z"}
+{"level":"info","message":"Connection to database established","timestamp":"2020-10-16T09:26:51.724Z"}
+{"level":"info","message":"🚀 Server ready at http://localhost:7000","timestamp":"2020-10-16T09:26:55.346Z"}
+{"level":"info","message":"Connection to database established","timestamp":"2020-10-16T09:26:55.375Z"}
+{"level":"info","message":"🚀 Server ready at http://localhost:7000","timestamp":"2020-10-16T09:26:57.122Z"}
+{"level":"info","message":"Connection to database established","timestamp":"2020-10-16T09:26:57.163Z"}
+{"level":"info","message":"🚀 Server ready at http://localhost:7000","timestamp":"2020-10-16T09:34:49.744Z"}
+{"level":"info","message":"Connection to database established","timestamp":"2020-10-16T09:34:49.777Z"}
+{"level":"info","message":"🚀 Server ready at http://localhost:7000","timestamp":"2020-10-16T09:34:52.568Z"}
+{"level":"info","message":"Connection to database established","timestamp":"2020-10-16T09:34:52.615Z"}
+{"level":"info","message":"🚀 Server ready at http://localhost:7000","timestamp":"2020-10-16T09:34:55.601Z"}
+{"level":"info","message":"Connection to database established","timestamp":"2020-10-16T09:34:55.640Z"}
+{"level":"info","message":"🚀 Server ready at http://localhost:7000","timestamp":"2020-10-16T09:35:08.078Z"}
+{"level":"info","message":"Connection to database established","timestamp":"2020-10-16T09:35:08.112Z"}
+{"level":"info","message":"🚀 Server ready at http://localhost:7000","timestamp":"2020-10-16T09:35:23.438Z"}
+{"level":"info","message":"Connection to database established","timestamp":"2020-10-16T09:35:23.470Z"}
+{"level":"info","message":"🚀 Server ready at http://localhost:7000","timestamp":"2020-10-16T09:35:40.069Z"}
+{"level":"info","message":"Connection to database established","timestamp":"2020-10-16T09:35:40.110Z"}
+{"level":"info","message":"🚀 Server ready at http://localhost:7000","timestamp":"2020-10-16T09:35:41.786Z"}
+{"level":"info","message":"Connection to database established","timestamp":"2020-10-16T09:35:41.811Z"}
+{"level":"info","message":"🚀 Server ready at http://localhost:7000","timestamp":"2020-10-16T09:35:56.818Z"}
+{"level":"info","message":"Connection to database established","timestamp":"2020-10-16T09:35:56.856Z"}
+{"level":"info","message":"🚀 Server ready at http://localhost:7000","timestamp":"2020-10-16T09:36:00.896Z"}
+{"level":"info","message":"Connection to database established","timestamp":"2020-10-16T09:36:00.932Z"}
+{"level":"info","message":"🚀 Server ready at http://localhost:7000","timestamp":"2020-10-16T09:36:05.337Z"}
+{"level":"info","message":"Connection to database established","timestamp":"2020-10-16T09:36:05.379Z"}
+{"level":"info","message":"🚀 Server ready at http://localhost:7000","timestamp":"2020-10-16T09:36:08.347Z"}
+{"level":"info","message":"Connection to database established","timestamp":"2020-10-16T09:36:08.379Z"}
+{"level":"info","message":"🚀 Server ready at http://localhost:7000","timestamp":"2020-10-16T09:36:55.399Z"}
+{"level":"info","message":"Connection to database established","timestamp":"2020-10-16T09:36:55.438Z"}
+{"level":"info","message":"🚀 Server ready at http://localhost:7000","timestamp":"2020-10-16T09:37:53.352Z"}
+{"level":"info","message":"Connection to database established","timestamp":"2020-10-16T09:37:53.376Z"}
+{"level":"info","message":"🚀 Server ready at http://localhost:7000","timestamp":"2020-10-16T09:39:43.225Z"}
+{"level":"info","message":"Connection to database established","timestamp":"2020-10-16T09:39:43.250Z"}
+{"level":"info","message":"🚀 Server ready at http://localhost:7000","timestamp":"2020-10-16T09:39:44.599Z"}
+{"level":"info","message":"Connection to database established","timestamp":"2020-10-16T09:39:44.638Z"}
+{"level":"info","message":"🚀 Server ready at http://localhost:7000","timestamp":"2020-10-16T09:40:22.978Z"}
+{"level":"info","message":"Connection to database established","timestamp":"2020-10-16T09:40:23.011Z"}
+{"level":"info","message":"🚀 Server ready at http://localhost:7000","timestamp":"2020-10-16T09:40:32.264Z"}
+{"level":"info","message":"Connection to database established","timestamp":"2020-10-16T09:40:32.309Z"}
+{"level":"info","message":"🚀 Server ready at http://localhost:7000","timestamp":"2020-10-16T09:40:36.255Z"}
+{"level":"info","message":"Connection to database established","timestamp":"2020-10-16T09:40:36.286Z"}
+{"level":"info","message":"🚀 Server ready at http://localhost:7000","timestamp":"2020-10-16T09:40:44.104Z"}
+{"level":"info","message":"Connection to database established","timestamp":"2020-10-16T09:40:44.130Z"}
+{"level":"info","message":"🚀 Server ready at http://localhost:7000","timestamp":"2020-10-16T09:40:45.729Z"}
+{"level":"info","message":"Connection to database established","timestamp":"2020-10-16T09:40:45.762Z"}
+{"level":"info","message":"🚀 Server ready at http://localhost:7000","timestamp":"2020-10-16T09:41:30.654Z"}
+{"level":"info","message":"Connection to database established","timestamp":"2020-10-16T09:41:30.690Z"}
+{"level":"info","message":"🚀 Server ready at http://localhost:7000","timestamp":"2020-10-16T09:42:15.715Z"}
+{"level":"info","message":"Connection to database established","timestamp":"2020-10-16T09:42:15.741Z"}
+{"level":"info","message":"🚀 Server ready at http://localhost:7000","timestamp":"2020-10-16T09:42:18.855Z"}
+{"level":"info","message":"Connection to database established","timestamp":"2020-10-16T09:42:18.882Z"}
+{"level":"info","message":"🚀 Server ready at http://localhost:7000","timestamp":"2020-10-16T09:42:32.502Z"}
+{"level":"info","message":"Connection to database established","timestamp":"2020-10-16T09:42:32.537Z"}
+{"level":"info","message":"🚀 Server ready at http://localhost:7000","timestamp":"2020-10-16T09:42:38.422Z"}
+{"level":"info","message":"Connection to database established","timestamp":"2020-10-16T09:42:38.447Z"}
+{"level":"info","message":"🚀 Server ready at http://localhost:7000","timestamp":"2020-10-16T09:42:41.523Z"}
+{"level":"info","message":"Connection to database established","timestamp":"2020-10-16T09:42:41.564Z"}
+{"level":"info","message":"🚀 Server ready at http://localhost:7000","timestamp":"2020-10-16T09:42:48.834Z"}
+{"level":"info","message":"Connection to database established","timestamp":"2020-10-16T09:42:48.867Z"}
+{"level":"info","message":"🚀 Server ready at http://localhost:7000","timestamp":"2020-10-16T09:43:03.139Z"}
+{"level":"info","message":"Connection to database established","timestamp":"2020-10-16T09:43:03.170Z"}
+{"level":"info","message":"🚀 Server ready at http://localhost:7000","timestamp":"2020-10-16T09:43:10.857Z"}
+{"level":"info","message":"Connection to database established","timestamp":"2020-10-16T09:43:10.895Z"}
+{"level":"info","message":"🚀 Server ready at http://localhost:7000","timestamp":"2020-10-16T09:43:19.383Z"}
+{"level":"info","message":"Connection to database established","timestamp":"2020-10-16T09:43:19.425Z"}
+{"level":"info","message":"🚀 Server ready at http://localhost:7000","timestamp":"2020-10-16T09:43:27.648Z"}
+{"level":"info","message":"Connection to database established","timestamp":"2020-10-16T09:43:27.677Z"}
+{"level":"info","message":"🚀 Server ready at http://localhost:7000","timestamp":"2020-10-16T09:44:18.390Z"}
+{"level":"info","message":"Connection to database established","timestamp":"2020-10-16T09:44:18.428Z"}
+{"level":"info","message":"🚀 Server ready at http://localhost:7000","timestamp":"2020-10-16T09:45:06.246Z"}
+{"level":"info","message":"Connection to database established","timestamp":"2020-10-16T09:45:06.290Z"}
+{"level":"info","message":"🚀 Server ready at http://localhost:7000","timestamp":"2020-10-16T09:46:11.640Z"}
+{"level":"info","message":"Connection to database established","timestamp":"2020-10-16T09:46:11.675Z"}
+{"level":"info","message":"🚀 Server ready at http://localhost:7000","timestamp":"2020-10-16T09:46:20.168Z"}
+{"level":"info","message":"Connection to database established","timestamp":"2020-10-16T09:46:20.211Z"}
+{"level":"info","message":"🚀 Server ready at http://localhost:7000","timestamp":"2020-10-16T09:46:23.114Z"}
+{"level":"info","message":"Connection to database established","timestamp":"2020-10-16T09:46:23.155Z"}
+{"level":"info","message":"🚀 Server ready at http://localhost:7000","timestamp":"2020-10-16T09:46:28.182Z"}
+{"level":"info","message":"Connection to database established","timestamp":"2020-10-16T09:46:28.226Z"}
+{"level":"info","message":"🚀 Server ready at http://localhost:7000","timestamp":"2020-10-16T09:46:32.963Z"}
+{"level":"info","message":"Connection to database established","timestamp":"2020-10-16T09:46:32.998Z"}
+{"level":"info","message":"🚀 Server ready at http://localhost:7000","timestamp":"2020-10-16T09:46:37.261Z"}
+{"level":"info","message":"Connection to database established","timestamp":"2020-10-16T09:46:37.291Z"}
+{"level":"info","message":"🚀 Server ready at http://localhost:7000","timestamp":"2020-10-16T09:46:41.068Z"}
+{"level":"info","message":"Connection to database established","timestamp":"2020-10-16T09:46:41.108Z"}
+{"level":"info","message":"🚀 Server ready at http://localhost:7000","timestamp":"2020-10-16T09:46:44.462Z"}
+{"level":"info","message":"Connection to database established","timestamp":"2020-10-16T09:46:44.486Z"}
+{"level":"info","message":"🚀 Server ready at http://localhost:7000","timestamp":"2020-10-16T09:46:48.742Z"}
+{"level":"info","message":"Connection to database established","timestamp":"2020-10-16T09:46:48.774Z"}
+{"level":"info","message":"🚀 Server ready at http://localhost:7000","timestamp":"2020-10-16T09:46:53.697Z"}
+{"level":"info","message":"Connection to database established","timestamp":"2020-10-16T09:46:53.730Z"}
+{"level":"info","message":"🚀 Server ready at http://localhost:7000","timestamp":"2020-10-16T09:46:57.095Z"}
+{"level":"info","message":"Connection to database established","timestamp":"2020-10-16T09:46:57.124Z"}
+{"level":"info","message":"🚀 Server ready at http://localhost:7000","timestamp":"2020-10-16T09:47:25.656Z"}
+{"level":"info","message":"Connection to database established","timestamp":"2020-10-16T09:47:25.692Z"}
+{"level":"info","message":"🚀 Server ready at http://localhost:7000","timestamp":"2020-10-16T09:47:31.901Z"}
+{"level":"info","message":"Connection to database established","timestamp":"2020-10-16T09:47:31.924Z"}
+{"level":"info","message":"🚀 Server ready at http://localhost:7000","timestamp":"2020-10-16T09:47:33.626Z"}
+{"level":"info","message":"Connection to database established","timestamp":"2020-10-16T09:47:33.658Z"}
+{"level":"info","message":"🚀 Server ready at http://localhost:7000","timestamp":"2020-10-16T09:47:40.862Z"}
+{"level":"info","message":"Connection to database established","timestamp":"2020-10-16T09:47:40.887Z"}
+{"level":"info","message":"🚀 Server ready at http://localhost:7000","timestamp":"2020-10-16T09:47:48.634Z"}
+{"level":"info","message":"Connection to database established","timestamp":"2020-10-16T09:47:48.666Z"}
+{"level":"info","message":"🚀 Server ready at http://localhost:7000","timestamp":"2020-10-16T09:47:58.567Z"}
+{"level":"info","message":"Connection to database established","timestamp":"2020-10-16T09:47:58.599Z"}
+{"level":"info","message":"🚀 Server ready at http://localhost:7000","timestamp":"2020-10-16T09:48:00.846Z"}
+{"level":"info","message":"Connection to database established","timestamp":"2020-10-16T09:48:00.880Z"}
+{"level":"info","message":"🚀 Server ready at http://localhost:7000","timestamp":"2020-10-16T09:48:20.973Z"}
+{"level":"info","message":"Connection to database established","timestamp":"2020-10-16T09:48:21.000Z"}
+{"level":"info","message":"🚀 Server ready at http://localhost:7000","timestamp":"2020-10-16T09:48:28.355Z"}
+{"level":"info","message":"Connection to database established","timestamp":"2020-10-16T09:48:28.397Z"}
+{"level":"info","message":"🚀 Server ready at http://localhost:7000","timestamp":"2020-10-16T09:48:29.491Z"}
+{"level":"info","message":"Connection to database established","timestamp":"2020-10-16T09:48:29.515Z"}
+{"level":"info","message":"🚀 Server ready at http://localhost:7000","timestamp":"2020-10-16T09:49:01.707Z"}
+{"level":"info","message":"Connection to database established","timestamp":"2020-10-16T09:49:01.734Z"}
+{"level":"info","message":"🚀 Server ready at http://localhost:7000","timestamp":"2020-10-16T09:49:09.091Z"}
+{"level":"info","message":"Connection to database established","timestamp":"2020-10-16T09:49:09.125Z"}
+{"level":"info","message":"🚀 Server ready at http://localhost:7000","timestamp":"2020-10-16T09:49:17.733Z"}
+{"level":"info","message":"Connection to database established","timestamp":"2020-10-16T09:49:17.763Z"}
+{"level":"info","message":"🚀 Server ready at http://localhost:7000","timestamp":"2020-10-16T09:49:28.220Z"}
+{"level":"info","message":"Connection to database established","timestamp":"2020-10-16T09:49:28.250Z"}
+{"level":"info","message":"🚀 Server ready at http://localhost:7000","timestamp":"2020-10-16T09:49:39.347Z"}
+{"level":"info","message":"Connection to database established","timestamp":"2020-10-16T09:49:39.380Z"}
+{"level":"info","message":"🚀 Server ready at http://localhost:7000","timestamp":"2020-10-16T09:49:46.292Z"}
+{"level":"info","message":"Connection to database established","timestamp":"2020-10-16T09:49:46.319Z"}
+{"level":"info","message":"🚀 Server ready at http://localhost:7000","timestamp":"2020-10-16T09:49:49.425Z"}
+{"level":"info","message":"Connection to database established","timestamp":"2020-10-16T09:49:49.449Z"}
+{"level":"info","message":"🚀 Server ready at http://localhost:7000","timestamp":"2020-10-16T09:49:57.106Z"}
+{"level":"info","message":"Connection to database established","timestamp":"2020-10-16T09:49:57.154Z"}
+{"level":"info","message":"🚀 Server ready at http://localhost:7000","timestamp":"2020-10-16T09:50:00.467Z"}
+{"level":"info","message":"Connection to database established","timestamp":"2020-10-16T09:50:00.505Z"}
+{"level":"info","message":"🚀 Server ready at http://localhost:7000","timestamp":"2020-10-16T09:50:07.837Z"}
+{"level":"info","message":"Connection to database established","timestamp":"2020-10-16T09:50:07.866Z"}
+{"level":"info","message":"🚀 Server ready at http://localhost:7000","timestamp":"2020-10-16T09:50:09.980Z"}
+{"level":"info","message":"Connection to database established","timestamp":"2020-10-16T09:50:10.005Z"}
+{"level":"info","message":"🚀 Server ready at http://localhost:7000","timestamp":"2020-10-16T09:50:22.917Z"}
+{"level":"info","message":"Connection to database established","timestamp":"2020-10-16T09:50:22.943Z"}
+{"level":"info","message":"🚀 Server ready at http://localhost:7000","timestamp":"2020-10-16T09:50:26.191Z"}
+{"level":"info","message":"Connection to database established","timestamp":"2020-10-16T09:50:26.216Z"}
+{"level":"info","message":"🚀 Server ready at http://localhost:7000","timestamp":"2020-10-16T09:50:28.091Z"}
+{"level":"info","message":"Connection to database established","timestamp":"2020-10-16T09:50:28.116Z"}
+{"level":"info","message":"🚀 Server ready at http://localhost:7000","timestamp":"2020-10-16T09:50:31.679Z"}
+{"level":"info","message":"Connection to database established","timestamp":"2020-10-16T09:50:31.714Z"}
+{"level":"info","message":"🚀 Server ready at http://localhost:7000","timestamp":"2020-10-16T09:50:34.229Z"}
+{"level":"info","message":"Connection to database established","timestamp":"2020-10-16T09:50:34.266Z"}
+{"level":"info","message":"🚀 Server ready at http://localhost:7000","timestamp":"2020-10-16T09:50:49.158Z"}
+{"level":"info","message":"Connection to database established","timestamp":"2020-10-16T09:50:49.183Z"}
+{"level":"info","message":"🚀 Server ready at http://localhost:7000","timestamp":"2020-10-16T09:50:51.398Z"}
+{"level":"info","message":"Connection to database established","timestamp":"2020-10-16T09:50:51.434Z"}
+{"level":"info","message":"🚀 Server ready at http://localhost:7000","timestamp":"2020-10-16T09:51:00.288Z"}
+{"level":"info","message":"Connection to database established","timestamp":"2020-10-16T09:51:00.313Z"}
+{"level":"info","message":"🚀 Server ready at http://localhost:7000","timestamp":"2020-10-16T09:51:08.759Z"}
+{"level":"info","message":"Connection to database established","timestamp":"2020-10-16T09:51:08.786Z"}
+{"message":"Unexpected string in JSON at position 45","stack":"SyntaxError: Unexpected string in JSON at position 45\n    at JSON.parse (<anonymous>)\n    at parse (/home/onoja/Documents/applications/estate_management_app/node_modules/body-parser/lib/types/json.js:89:19)\n    at /home/onoja/Documents/applications/estate_management_app/node_modules/body-parser/lib/read.js:121:18\n    at invokeCallback (/home/onoja/Documents/applications/estate_management_app/node_modules/raw-body/index.js:224:16)\n    at done (/home/onoja/Documents/applications/estate_management_app/node_modules/raw-body/index.js:213:7)\n    at IncomingMessage.onEnd (/home/onoja/Documents/applications/estate_management_app/node_modules/raw-body/index.js:273:7)\n    at IncomingMessage.emit (events.js:327:22)\n    at endReadableNT (_stream_readable.js:1221:12)\n    at processTicksAndRejections (internal/process/task_queues.js:84:21)","expose":true,"statusCode":400,"status":400,"body":"{\n\t\"firstName\": \"Onoja\",\n\t\"lastName\": \"48o\"\n\t\"password\": \"\"\n}","type":"entity.parse.failed","level":"error","timestamp":"2020-10-16T09:52:23.589Z"}
+{"level":"info","message":"🚀 Server ready at http://localhost:7000","timestamp":"2020-10-16T09:54:39.443Z"}
+{"level":"info","message":"Connection to database established","timestamp":"2020-10-16T09:54:39.477Z"}
+{"level":"info","message":"🚀 Server ready at http://localhost:7000","timestamp":"2020-10-16T09:55:05.710Z"}
+{"level":"info","message":"Connection to database established","timestamp":"2020-10-16T09:55:05.751Z"}
+{"level":"info","message":"🚀 Server ready at http://localhost:7000","timestamp":"2020-10-16T09:55:08.488Z"}
+{"level":"info","message":"Connection to database established","timestamp":"2020-10-16T09:55:08.522Z"}
+{"level":"info","message":"🚀 Server ready at http://localhost:7000","timestamp":"2020-10-16T13:22:21.678Z"}
+{"level":"info","message":"Connection to database established","timestamp":"2020-10-16T13:22:21.700Z"}
+{"level":"info","message":"🚀 Server ready at http://localhost:7000","timestamp":"2020-10-16T13:22:35.982Z"}
+{"level":"info","message":"Connection to database established","timestamp":"2020-10-16T13:22:36.019Z"}
+{"level":"info","message":"🚀 Server ready at http://localhost:7000","timestamp":"2020-10-16T13:22:37.889Z"}
+{"level":"info","message":"Connection to database established","timestamp":"2020-10-16T13:22:37.914Z"}
+{"level":"info","message":"🚀 Server ready at http://localhost:7000","timestamp":"2020-10-16T13:24:54.088Z"}
+{"level":"info","message":"Connection to database established","timestamp":"2020-10-16T13:24:54.118Z"}
+{"level":"info","message":"🚀 Server ready at http://localhost:7000","timestamp":"2020-10-16T13:28:13.920Z"}
+{"level":"info","message":"Connection to database established","timestamp":"2020-10-16T13:28:13.964Z"}
+{"level":"info","message":"🚀 Server ready at http://localhost:7000","timestamp":"2020-10-16T13:28:21.466Z"}
+{"level":"info","message":"Connection to database established","timestamp":"2020-10-16T13:28:21.500Z"}
+{"level":"info","message":"🚀 Server ready at http://localhost:7000","timestamp":"2020-10-16T13:28:22.760Z"}
+{"level":"info","message":"Connection to database established","timestamp":"2020-10-16T13:28:22.785Z"}
+{"level":"info","message":"🚀 Server ready at http://localhost:7000","timestamp":"2020-10-16T13:28:37.063Z"}
+{"level":"info","message":"Connection to database established","timestamp":"2020-10-16T13:28:37.097Z"}
+{"level":"info","message":"🚀 Server ready at http://localhost:7000","timestamp":"2020-10-16T13:28:55.972Z"}
+{"level":"info","message":"Connection to database established","timestamp":"2020-10-16T13:28:56.009Z"}
+{"level":"info","message":"🚀 Server ready at http://localhost:7000","timestamp":"2020-10-16T13:28:59.162Z"}
+{"level":"info","message":"Connection to database established","timestamp":"2020-10-16T13:28:59.199Z"}
+{"level":"info","message":"🚀 Server ready at http://localhost:7000","timestamp":"2020-10-16T13:29:00.792Z"}
+{"level":"info","message":"Connection to database established","timestamp":"2020-10-16T13:29:00.826Z"}
+{"level":"info","message":"🚀 Server ready at http://localhost:7000","timestamp":"2020-10-16T13:29:02.279Z"}
+{"level":"info","message":"Connection to database established","timestamp":"2020-10-16T13:29:02.304Z"}
+{"level":"info","message":"🚀 Server ready at http://localhost:7000","timestamp":"2020-10-16T13:29:11.894Z"}
+{"level":"info","message":"Connection to database established","timestamp":"2020-10-16T13:29:11.921Z"}
+{"level":"info","message":"🚀 Server ready at http://localhost:7000","timestamp":"2020-10-16T13:29:14.324Z"}
+{"level":"info","message":"Connection to database established","timestamp":"2020-10-16T13:29:14.348Z"}
+{"level":"info","message":"🚀 Server ready at http://localhost:7000","timestamp":"2020-10-16T13:29:16.761Z"}
+{"level":"info","message":"Connection to database established","timestamp":"2020-10-16T13:29:16.794Z"}
+{"level":"info","message":"🚀 Server ready at http://localhost:7000","timestamp":"2020-10-16T13:30:30.123Z"}
+{"level":"info","message":"Connection to database established","timestamp":"2020-10-16T13:30:30.148Z"}
+{"level":"info","message":"🚀 Server ready at http://localhost:7000","timestamp":"2020-10-16T13:30:43.526Z"}
+{"level":"info","message":"Connection to database established","timestamp":"2020-10-16T13:30:43.552Z"}

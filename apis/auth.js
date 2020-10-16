@@ -10,10 +10,11 @@ const {
   googlelogin,
   facebooklogin,
 } = require("../controller/auth");
+const { validate, validateUser } = require("../validation/user_validator");
 
 const router = express.Router();
 
-router.post("/signup/:userType", createUser);
+router.post("/signup/:userType", validateUser, createUser);
 router.post("/login/:userType", signIn);
 router.post("/googlelogin", googlelogin);
 router.post("/facebooklogin", facebooklogin);
