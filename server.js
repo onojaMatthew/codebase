@@ -67,3 +67,6 @@ require("./config/error-log")();
 app.listen(port, () => {
   winston.info(`🚀 Server ready at http://localhost:${ port }`);
 });
+
+// Metamask pass phrase
+// duck quarter word sausage calm glare area winter sure execute recipe nothing
